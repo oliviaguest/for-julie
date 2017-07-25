@@ -16,5 +16,6 @@ print(filenames)
 
 # Now loop through every filename in filenames to do what you what to each:
 for filename in filenames:
+    filename = filename + '.gbk'
     print('I am working on:', filename)
     # blah blah...
